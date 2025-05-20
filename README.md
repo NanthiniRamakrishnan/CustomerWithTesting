@@ -38,36 +38,45 @@ git clone https://github.com/NanthiniRamakrishnan/CustomerWithTesting.git
 cd CustomerWithTesting
 ```
 
-2. **Install dependencies**
+### 2. Install dependencies
+```bash
 npm install
+```
 
-3.  **Run the app**
+### 3.  Run the app
+```bash
 npm run android
+```
 
-🧪 Testing
-✅ **Unit Tests (Jest)**
-
+## 🧪 Testing
+### Unit Tests (Jest)
+```bash
 npm test
+```
 
 Located in the __tests__/ directory.
+
 Tests for search, filtering, and UI rendering.
+
 Built with Jest and React Native Testing Library.
 
-✅ **E2E Tests (Appium + WebdriverIO)**
+### E2E Tests (Appium + WebdriverIO)
 
 1. **Install Appium**
-
+```bash
 npm install -g appium
 appium driver install uiautomator2
+```
 
-3. **Start Appium Server**
 
+2. **Start Appium Server**
+```bash
 appium
-
+```
 3.**Run WebdriverIO Tests**
-
+```bash
 npx wdio
-
+```
 E2E tests live in e2e-appium/zellerCustomer.test.js.
 Simulates user actions like:
 Viewing the list
@@ -78,25 +87,28 @@ Searching by name
 
 📁 **Folder Structure**
 
-CustomerWithTesting/
+```CustomerWithTesting/
 ├── App.tsx
-├── __tests__/                   # Unit test files
-├── e2e-appium/                 # E2E test files
-│   └── zellerCustomer.test.js
-├── models/                     # TypeScript interfaces
-├── queries/                    # GraphQL queries
+├── tests/ # Unit test files
+├── e2e-appium/ # E2E test files
+│ └── zellerCustomer.test.js
+├── models/ # TypeScript interfaces
+├── queries/ # GraphQL queries
 ├── screens/
-│   └── ZellerCustomers.tsx     # Main customer screen
+│ └── ZellerCustomers.tsx # Main customer screen
 ├── common/
-│   └── graphQLService.ts       # GraphQL service layer
-├── wdio.conf.js                # WebdriverIO config
-├── jest.config.js              # Jest config
+│ └── graphQLService.ts # GraphQL service layer
+├── wdio.conf.js # WebdriverIO config
+├── jest.config.js # Jest config
 └── README.md
+```
 
 
 
 🧑‍💻 **Author**
+
 Nanthini Ramakrishnan
+
 GitHub: @NanthiniRamakrishnan
 
 
