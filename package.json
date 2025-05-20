@@ -10,8 +10,24 @@
     "test": "jest"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.8",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "@rneui/base": "^4.0.0-rc.8",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "@testing-library/react-native": "^13.2.0",
+    "@wdio/local-runner": "^9.14.0",
+    "@wdio/mocha-framework": "^9.14.0",
+    "@wdio/spec-reporter": "^9.14.0",
+    "@wdio/visual-service": "^8.0.1",
+    "appium-doctor": "^1.16.2",
+    "graphql": "^16.11.0",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-vector-icons": "^10.2.0",
+    "webdriverio": "^9.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -27,6 +43,8 @@
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
+    "@wdio/appium-service": "^9.14.0",
+    "@wdio/cli": "^9.14.0",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
     "prettier": "2.8.8",
